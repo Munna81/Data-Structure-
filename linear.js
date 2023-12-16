@@ -6,7 +6,7 @@ function linearSearch (arr,target) {
       return i
     }  
      }
-  }
+  
 return -1;
 }
 const result = linearSearch(numbers,6);
