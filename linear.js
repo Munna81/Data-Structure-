@@ -4,10 +4,10 @@ function linearSearch (arr,target) {
   for(let i in arr){
     if (numbers[i] === target){
       return i
-    } else {
-      return -1;
-    }
+    }  
+     }
   }
+return -1;
 }
 const result = linearSearch(numbers,6);
 console.log(result);
