@@ -5,7 +5,7 @@ function linearSearch (arr,target) {
     if (numbers[i] === target){
       return i
     } else {
-      return none;
+      return -1;
     }
   }
 }
